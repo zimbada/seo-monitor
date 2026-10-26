@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "task_id": "seo_monitoring_architecture_20261013_v1",
+  "created_date": "2026-10-13",
+  "document_timezone": "Asia/Omsk",
+  "version": "1.0.0",
+  "artifact_kind": "architecture_and_implementation_prompt",
+  "approval": {
+    "user_message": "Подтверждаю",
+    "scope": "Prepare and save the self-contained Markdown specification; do not implement or connect the service"
+  },
+  "status": "document_complete_verified",
+  "implementation_status": "not_started",
+  "external_connections_performed": false,
+  "dependencies_installed": false,
+  "existing_seo_agent_modified": false,
+  "original_promt_modified": false,
+  "files": [
+    {
+      "path": "promt.md",
+      "bytes": 88077,
+      "sha256": "c5e39942c81da4451c1b01a33a787001b8c108c1139a282bc8aa105dea50b564",
+      "role": "Single transferable full implementation specification"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0bd849483264315a42c5b0626ca1b926c09ab932d424bf30f72197bc0f175ea6",
+      "role": "Short handoff instructions; optional for the receiving agent"
+    }
+  ],
+  "document_checks": {
+    "passed": true,
+    "main_sections": 31,
+    "planned_implementation_stages": 18,
+    "planned_test_groups": 20,
+    "valid_json_examples": 4,
+    "balanced_code_fences": true,
+    "no_encoding_replacement_characters": true,
+    "no_detected_token_patterns": true,
+    "explicit_future_vs_implemented_status": true,
+    "runtime_tests_performed": false,
+    "note": "Document structure and examples checked; these checks do not certify a working application or API access"
+  },
+  "next_action": "Transfer promt.md to the chosen developer/agent and separately commission implementation; configure resources and authorize read-only connections when requested",
+  "sources": {
+    "local_original_promt": "C:/Users/Mercury8/Desktop/SEO труд/SEO-Agent/promt.md",
+    "local_integration_architecture": "G:/cache-seoagent/SEO-Agent/docs/ARCHITECTURE.md",
+    "official_reference_links": "promt.md section 30"
+  }
+}
